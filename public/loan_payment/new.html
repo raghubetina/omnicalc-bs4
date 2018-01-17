@@ -43,48 +43,38 @@
     </a>
   </nav>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="card border-success mb-3">
-          <div class="card-header">
-            New loan payment calculation
-          </div>
+  <h1>
+    New loan payment calculation
+  </h1>
 
-          <div class="card-body">
-            <form action="results.html">
-              <div class="form-group">
-                <label for="annual_percentage_rate">
-                  APR
-                </label>
+  <form action="results.html">
+    <div>
+      <label for="annual_percentage_rate">
+        APR
+      </label>
 
-                <input type="number" step="any" class="form-control" id="annual_percentage_rate" placeholder="Enter the APR of the loan (as a percent)" value="4.5">
-              </div>
+      <input type="number" step="any" id="annual_percentage_rate" placeholder="Enter the APR of the loan (as a percent)" value="4.5">
+    </div>
 
-              <div class="form-group">
-                <label for="number_of_years">
-                  Years
-                </label>
+    <div>
+      <label for="number_of_years">
+        Years
+      </label>
 
-                <input type="number" min="1" class="form-control" id="number_of_years" placeholder="Enter the number of years to repay the loan" value="30">
-              </div>
+      <input type="number" min="1" id="number_of_years" placeholder="Enter the number of years to repay the loan" value="30">
+    </div>
 
-              <div class="form-group">
-                <label for="principal_value">
-                  Principal
-                </label>
+    <div>
+      <label for="principal_value">
+        Principal
+      </label>
 
-                <input type="number" min="1" class="form-control" id="principal_value" placeholder="Enter the principal of the loan" value="50000">
-              </div>
+      <input type="number" min="1" id="principal_value" placeholder="Enter the principal of the loan" value="50000">
+    </div>
 
-              <button class="btn btn-outline-success btn-block">
-                Calculate!
-              </button>
-            </form>
-          </div>  <!-- card-body -->
-        </div>  <!-- card -->
-      </div>  <!-- col-lg-9 -->
-    </div>  <!-- row -->
-  </div> <!-- container -->
+    <button>
+      Calculate!
+    </button>
+  </form>
 </body>
 </html>
