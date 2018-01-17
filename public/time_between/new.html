@@ -43,50 +43,30 @@
     </a>
   </nav>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="card border-warning mb-3">
-          <div class="card-header">
-            New time between calculation
-          </div>
+  <h1>
+    New time between calculation
+  </h1>
 
-          <div class="card-body">
-            <form action="results.html">
-              <div class="form-group">
-                <label for="starting_time">
-                  Starting Time
-                </label>
+  <form action="results.html">
+    <div>
+      <label for="starting_time">
+        Starting Time
+      </label>
 
-                <div class="input-group">
-                  <input type="text" class="form-control" id="starting_time" value="01/20/2017 11:30 AM">
-                  <span class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </span>
-                </div>
-              </div>
+      <input type="text" id="starting_time" value="01/20/2017 11:30 AM">
+    </div>
 
-              <div class="form-group">
-                <label for="ending_time">
-                  Ending Time
-                </label>
+    <div>
+      <label for="ending_time">
+        Ending Time
+      </label>
 
-                <div class="input-group">
-                  <input type="text" class="form-control" id="ending_time" value="01/20/2021 11:30 AM">
-                  <span class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </span>
-                </div>
-              </div>
+      <input type="text" id="ending_time" value="01/20/2021 11:30 AM">
+    </div>
 
-              <button class="btn btn-outline-warning btn-block">
-                Calculate!
-              </button>
-            </form>
-          </div>  <!-- card-body -->
-        </div>  <!-- card -->
-      </div>  <!-- col-lg-9 -->
-    </div>  <!-- row -->
-  </div> <!-- container -->
+    <button>
+      Calculate!
+    </button>
+  </form>
 </body>
 </html>
